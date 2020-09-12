@@ -1,0 +1,133 @@
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" 
+	>
+  
+    <LinearLayout
+            android:id="@+id/linearLayoutAllLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical" > 
+    <LinearLayout
+            android:id="@+id/linearLayoutLogoProgram"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="50px"
+            android:orientation="horizontal" >    
+        
+       <RadioGroup
+          android:id="@+id/radioGroupUdiskSd"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+           >
+
+          <RadioButton
+              android:id="@+id/radioUdisk"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:checked="true"
+              android:text="@string/udisklogo" />
+
+          <RadioButton
+              android:id="@+id/radioSdcard"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="80px"  
+              android:text="@string/sdcardlogo" />
+
+        </RadioGroup>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"  
+            android:layout_marginLeft="70px"         
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/editTextLogoPath"
+                android:layout_width="500px"
+                android:layout_height="50px"
+                android:ems="10" >
+                <requestFocus />
+            </EditText>
+            <Button
+                android:id="@+id/buttonLogoOpen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/openlogo" />
+
+            <Button
+                android:id="@+id/buttonLogoWrite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/writelogo" />
+        </LinearLayout>
+    </LinearLayout>
+     <LinearLayout
+            android:id="@+id/linearLayoutAnimationLogoProgram"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="50px"
+            android:orientation="horizontal" >    
+        
+       <RadioGroup
+          android:id="@+id/radioGroupUdiskSdAnimation"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+           >
+
+          <RadioButton
+              android:id="@+id/radioUdiskAnimation"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:checked="true"
+              android:text="@string/udiskanimationlogo" />
+
+          <RadioButton
+              android:id="@+id/radioSdcardAnimation"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="@string/sdcardanimationlogo" />
+
+        </RadioGroup>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutLogoAnimation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"           
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/editTextAnimationLogoPath"
+                android:layout_width="500px"
+                android:layout_height="50px"
+                android:ems="10" >
+                <requestFocus />
+            </EditText>
+			<Button
+                android:id="@+id/buttonAnimationLogoOpen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/openlogo" />
+            <Button
+                android:id="@+id/buttonAnimationLogoWrite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/writeanimationlogo" />
+        </LinearLayout>
+    </LinearLayout>
+   </LinearLayout>         
+
+</RelativeLayout>

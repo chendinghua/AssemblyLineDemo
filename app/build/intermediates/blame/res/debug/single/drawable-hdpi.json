@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "E:\\android_project\\AssemblyLineScanCode\\AssemblyLineDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bg_hsj_logo.png",
+        "source": "E:\\android_project\\AssemblyLineScanCode\\AssemblyLineDemo\\app\\src\\main\\res\\drawable-hdpi\\bg_hsj_logo.png"
+    },
+    {
+        "merged": "E:\\android_project\\AssemblyLineScanCode\\AssemblyLineDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
+        "source": "E:\\android_project\\AssemblyLineScanCode\\AssemblyLineDemo\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    }
+]

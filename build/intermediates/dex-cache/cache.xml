@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\16486\.android\build-cache\39722c3995ff86b8b1cfeeb512e670fe20c64e26\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="29.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="E:\android_project\AssemblyLineScanCode\AssemblyLineDemo\app\build\intermediates\pre-dexed\debug\classes_912f8ba40ea09cdd608dffe45411e6fb4aa76a02.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\16486\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife-annotations\8.5.1\bb67dad90bab7cd77a8f7f1b8442b47e3a2326bc\butterknife-annotations-8.5.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="29.0.2"
+        sha1="bb67dad90bab7cd77a8f7f1b8442b47e3a2326bc">
+        <dex dex="E:\android_project\AssemblyLineScanCode\AssemblyLineDemo\app\build\intermediates\pre-dexed\debug\butterknife-annotations-8.5.1_118ac0285583deb98b6a7cff8632637eb4e27525.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\16486\.android\build-cache\bf2da7140e4efb2f33fee2372c2cd5d041e9f1ee\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="29.0.2"
+        sha1="97cd0ab3ffad045a162fc1a413fe6abc58e199c4">
+        <dex dex="E:\android_project\AssemblyLineScanCode\AssemblyLineDemo\app\build\intermediates\pre-dexed\debug\classes_5f3bace883cf29509a41881017f0037f9458cbf0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\16486\.android\build-cache\4d6090e466b6a086116a5af65ef7d9a205247e83\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="29.0.2"
+        sha1="eef44a34be1eef845ecb4072e3692b434af05ad4">
+        <dex dex="E:\android_project\AssemblyLineScanCode\AssemblyLineDemo\app\build\intermediates\pre-dexed\debug\classes_1e03dbc93acc247885adc995380a60e843e66e31.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\16486\.android\build-cache\23cf2f06dff929f39e599151caf60271cf71f1c4\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="29.0.2"
+        sha1="b4a446c110c5a9f3a62907367d5eea4d4062c36a">
+        <dex dex="E:\android_project\AssemblyLineScanCode\AssemblyLineDemo\app\build\intermediates\pre-dexed\debug\classes_1033c35cf4ac78ac2f25b4e1d5998834d760e16d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\16486\.android\build-cache\969cc9661434354ee41619d7fe5e935e2ec11aee\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="29.0.2"
+        sha1="48a969b476c5c4bd8cabfe295428ff222bc68b8e">
+        <dex dex="E:\android_project\AssemblyLineScanCode\AssemblyLineDemo\app\build\intermediates\pre-dexed\debug\classes_e6eece7c3ea1a364d4a5b82355f5d98b782845ea.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\16486\.android\build-cache\2c460e84023c98c026af81a2033e43ac5274aed8\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="29.0.2"
+        sha1="94d358351559620a2c3d2ba3ac04d03a59a61bb3">
+        <dex dex="E:\android_project\AssemblyLineScanCode\AssemblyLineDemo\app\build\intermediates\pre-dexed\debug\classes_24b50ff07e011fb436d3f2af58346054b31f0ae9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\16486\.android\build-cache\b90e7e4b509fddef65cfe75e98f263cdf8fe79ae\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="29.0.2"
+        sha1="138b5e3a5341bb37117b13f327de68f81f9f0669">
+        <dex dex="E:\android_project\AssemblyLineScanCode\AssemblyLineDemo\app\build\intermediates\pre-dexed\debug\classes_320fc3f4552c0ba842bc38ec9fe81fba3bf1d03f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\16486\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\26.0.2\8b68a849722b44f584e2d68c451c5e3844c10380\support-annotations-26.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="29.0.2"
+        sha1="8b68a849722b44f584e2d68c451c5e3844c10380">
+        <dex dex="E:\android_project\AssemblyLineScanCode\AssemblyLineDemo\app\build\intermediates\pre-dexed\debug\support-annotations-26.0.2_17034d9a258e5fbafe01e5959c97e1123729ef4d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\android_project\AssemblyLineScanCode\AssemblyLineDemo\app\libs\ycsdk.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="29.0.2"
+        sha1="15d9ee27c0bb22e3539d06c1ca4b374349fcf755">
+        <dex dex="E:\android_project\AssemblyLineScanCode\AssemblyLineDemo\app\build\intermediates\pre-dexed\debug\ycsdk_e91a8b09b002db55b12086980eb3d58228e9681b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\16486\.android\build-cache\4fbcc204da0471d19b2078ddf0963452adae602c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="29.0.2"
+        sha1="19f281a785ca0eb5f6799fc7bf7ca199a9ca1e8b">
+        <dex dex="E:\android_project\AssemblyLineScanCode\AssemblyLineDemo\app\build\intermediates\pre-dexed\debug\classes_cf56caca3de4e2a1d589489cd2038dfad196b094.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\16486\.android\build-cache\5a77e806dc087b55d8edcff4a88f10625bab9f77\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="29.0.2"
+        sha1="4e38f488b591fa8ef9dce3e21752c92bde5f6f7c">
+        <dex dex="E:\android_project\AssemblyLineScanCode\AssemblyLineDemo\app\build\intermediates\pre-dexed\debug\classes_1fa4cc3c484266396aac75e0623822006997ad84.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\16486\.android\build-cache\78c376acb8f8ad17e22de1e173696df25526dee6\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="29.0.2"
+        sha1="f9f219b8a8acc35922ab06f4ff29769041481b4b">
+        <dex dex="E:\android_project\AssemblyLineScanCode\AssemblyLineDemo\app\build\intermediates\pre-dexed\debug\classes_87e2cf1bd9a3844545fb6f7466721181598818c7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\16486\.android\build-cache\90fb0b6fec9e85de4da6c87d102362b1f2174a44\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="29.0.2"
+        sha1="28cb30c89c8e501ded77e960407731df6c54b844">
+        <dex dex="E:\android_project\AssemblyLineScanCode\AssemblyLineDemo\app\build\intermediates\pre-dexed\debug\classes_158d5438094e239147f2fbb9921637ce77842ef6.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ycsdk">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/ycsdk.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

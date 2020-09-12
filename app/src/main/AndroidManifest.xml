@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ycexample.ycapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="22" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <!--添加允许程序开机自动运行权限-->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/bg_hsj_logo"
+        android:label="@string/app_name"
+        >
+        <activity
+            android:name="com.ycexample.ycapp.YcActivity"
+            android:label="@string/app_name"
+			android:excludeFromRecents="true">
+          <!--  <intent-filter>
+             
+                <action android:name="android.intent.action.MAIN" />                 
+                 <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>-->
+        </activity>
+
+        <activity android:name=".activity.ScanCodeActivity">
+            <intent-filter>
+
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name="E2promActivity"></activity>
+        <activity android:name="IDActivity"></activity>
+        <activity android:name="SerialActivity"></activity> 
+        <activity android:name="LogoProgActivity"></activity>
+
+     <!--   <receiver android:name=".BootBroadcastReceiver" >
+       	 	<intent-filter>   
+        	<action android:name="android.intent.action.BOOT_COMPLETED" />  
+        	<category android:name="android.intent.category.LAUNCHER" />
+        	</intent-filter>  
+   		</receiver>
+-->
+        <receiver android:name=".listener.BootBroadcastReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED">
+                </action>
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </receiver>
+        
+    </application>
+
+</manifest>

@@ -1,0 +1,4 @@
+#Tue Sep 08 12:07:35 CST 2020
+base.0=E\:\\android_project\\AssemblyLineScanCode\\AssemblyLineDemo\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_8
+renamed.0=classes.dex
+file.0=E\:\\android_project\\AssemblyLineScanCode\\AssemblyLineDemo\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_8\\classes.dex

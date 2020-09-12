@@ -1,0 +1,145 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\android_project\AssemblyLineScanCode\AssemblyLineDemo\app\src\main\AndroidManifest.xml:2:1-64:12
+	package
+		ADDED from E:\android_project\AssemblyLineScanCode\AssemblyLineDemo\app\src\main\AndroidManifest.xml:3:5-34
+		INJECTED from E:\android_project\AssemblyLineScanCode\AssemblyLineDemo\app\src\main\AndroidManifest.xml
+		INJECTED from E:\android_project\AssemblyLineScanCode\AssemblyLineDemo\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from E:\android_project\AssemblyLineScanCode\AssemblyLineDemo\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from E:\android_project\AssemblyLineScanCode\AssemblyLineDemo\app\src\main\AndroidManifest.xml
+		INJECTED from E:\android_project\AssemblyLineScanCode\AssemblyLineDemo\app\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from E:\android_project\AssemblyLineScanCode\AssemblyLineDemo\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from E:\android_project\AssemblyLineScanCode\AssemblyLineDemo\app\src\main\AndroidManifest.xml
+		INJECTED from E:\android_project\AssemblyLineScanCode\AssemblyLineDemo\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\android_project\AssemblyLineScanCode\AssemblyLineDemo\app\src\main\AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from E:\android_project\AssemblyLineScanCode\AssemblyLineDemo\app\src\main\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:26.0.2] C:\Users\16486\.android\build-cache\90fb0b6fec9e85de4da6c87d102362b1f2174a44\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:26.0.2] C:\Users\16486\.android\build-cache\39722c3995ff86b8b1cfeeb512e670fe20c64e26\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.0.2] C:\Users\16486\.android\build-cache\969cc9661434354ee41619d7fe5e935e2ec11aee\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.2] C:\Users\16486\.android\build-cache\78c376acb8f8ad17e22de1e173696df25526dee6\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.0.2] C:\Users\16486\.android\build-cache\4d6090e466b6a086116a5af65ef7d9a205247e83\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:26.0.2] C:\Users\16486\.android\build-cache\5a77e806dc087b55d8edcff4a88f10625bab9f77\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.2] C:\Users\16486\.android\build-cache\bf2da7140e4efb2f33fee2372c2cd5d041e9f1ee\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.0.2] C:\Users\16486\.android\build-cache\2c460e84023c98c026af81a2033e43ac5274aed8\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:26.0.2] C:\Users\16486\.android\build-cache\23cf2f06dff929f39e599151caf60271cf71f1c4\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.jakewharton:butterknife:8.5.1] C:\Users\16486\.android\build-cache\4fbcc204da0471d19b2078ddf0963452adae602c\output\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-compat:26.0.2] C:\Users\16486\.android\build-cache\b90e7e4b509fddef65cfe75e98f263cdf8fe79ae\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:26.0.2] C:\Users\16486\.android\build-cache\90fb0b6fec9e85de4da6c87d102362b1f2174a44\output\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		ADDED from E:\android_project\AssemblyLineScanCode\AssemblyLineDemo\app\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from E:\android_project\AssemblyLineScanCode\AssemblyLineDemo\app\src\main\AndroidManifest.xml
+		INJECTED from E:\android_project\AssemblyLineScanCode\AssemblyLineDemo\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from E:\android_project\AssemblyLineScanCode\AssemblyLineDemo\app\src\main\AndroidManifest.xml:8:9-35
+		INJECTED from E:\android_project\AssemblyLineScanCode\AssemblyLineDemo\app\src\main\AndroidManifest.xml
+		INJECTED from E:\android_project\AssemblyLineScanCode\AssemblyLineDemo\app\src\main\AndroidManifest.xml
+uses-permission#com.android.launcher.permission.INSTALL_SHORTCUT
+ADDED from E:\android_project\AssemblyLineScanCode\AssemblyLineDemo\app\src\main\AndroidManifest.xml:10:5-88
+	android:name
+		ADDED from E:\android_project\AssemblyLineScanCode\AssemblyLineDemo\app\src\main\AndroidManifest.xml:10:22-85
+uses-permission#android.permission.INTERNET
+ADDED from E:\android_project\AssemblyLineScanCode\AssemblyLineDemo\app\src\main\AndroidManifest.xml:11:5-66
+	android:name
+		ADDED from E:\android_project\AssemblyLineScanCode\AssemblyLineDemo\app\src\main\AndroidManifest.xml:11:22-64
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from E:\android_project\AssemblyLineScanCode\AssemblyLineDemo\app\src\main\AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from E:\android_project\AssemblyLineScanCode\AssemblyLineDemo\app\src\main\AndroidManifest.xml:12:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\android_project\AssemblyLineScanCode\AssemblyLineDemo\app\src\main\AndroidManifest.xml:13:5-80
+	android:name
+		ADDED from E:\android_project\AssemblyLineScanCode\AssemblyLineDemo\app\src\main\AndroidManifest.xml:13:22-78
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from E:\android_project\AssemblyLineScanCode\AssemblyLineDemo\app\src\main\AndroidManifest.xml:16:5-81
+	android:name
+		ADDED from E:\android_project\AssemblyLineScanCode\AssemblyLineDemo\app\src\main\AndroidManifest.xml:16:22-78
+application
+ADDED from E:\android_project\AssemblyLineScanCode\AssemblyLineDemo\app\src\main\AndroidManifest.xml:17:5-62:19
+MERGED from [com.android.support:appcompat-v7:26.0.2] C:\Users\16486\.android\build-cache\90fb0b6fec9e85de4da6c87d102362b1f2174a44\output\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.0.2] C:\Users\16486\.android\build-cache\39722c3995ff86b8b1cfeeb512e670fe20c64e26\output\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.0.2] C:\Users\16486\.android\build-cache\969cc9661434354ee41619d7fe5e935e2ec11aee\output\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.0.2] C:\Users\16486\.android\build-cache\78c376acb8f8ad17e22de1e173696df25526dee6\output\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.0.2] C:\Users\16486\.android\build-cache\4d6090e466b6a086116a5af65ef7d9a205247e83\output\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:26.0.2] C:\Users\16486\.android\build-cache\5a77e806dc087b55d8edcff4a88f10625bab9f77\output\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.0.2] C:\Users\16486\.android\build-cache\bf2da7140e4efb2f33fee2372c2cd5d041e9f1ee\output\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.0.2] C:\Users\16486\.android\build-cache\2c460e84023c98c026af81a2033e43ac5274aed8\output\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-core-ui:26.0.2] C:\Users\16486\.android\build-cache\23cf2f06dff929f39e599151caf60271cf71f1c4\output\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.0.2] C:\Users\16486\.android\build-cache\b90e7e4b509fddef65cfe75e98f263cdf8fe79ae\output\AndroidManifest.xml:25:5-29:19
+	android:label
+		ADDED from E:\android_project\AssemblyLineScanCode\AssemblyLineDemo\app\src\main\AndroidManifest.xml:20:9-41
+	android:allowBackup
+		ADDED from E:\android_project\AssemblyLineScanCode\AssemblyLineDemo\app\src\main\AndroidManifest.xml:18:9-35
+	android:icon
+		ADDED from E:\android_project\AssemblyLineScanCode\AssemblyLineDemo\app\src\main\AndroidManifest.xml:19:9-45
+activity#com.ycexample.ycapp.YcActivity
+ADDED from E:\android_project\AssemblyLineScanCode\AssemblyLineDemo\app\src\main\AndroidManifest.xml:22:9-31:20
+	android:label
+		ADDED from E:\android_project\AssemblyLineScanCode\AssemblyLineDemo\app\src\main\AndroidManifest.xml:24:13-45
+	android:excludeFromRecents
+		ADDED from E:\android_project\AssemblyLineScanCode\AssemblyLineDemo\app\src\main\AndroidManifest.xml:25:4-37
+	android:name
+		ADDED from E:\android_project\AssemblyLineScanCode\AssemblyLineDemo\app\src\main\AndroidManifest.xml:23:13-58
+activity#com.ycexample.ycapp.activity.ScanCodeActivity
+ADDED from E:\android_project\AssemblyLineScanCode\AssemblyLineDemo\app\src\main\AndroidManifest.xml:33:9-39:20
+	android:name
+		ADDED from E:\android_project\AssemblyLineScanCode\AssemblyLineDemo\app\src\main\AndroidManifest.xml:33:19-60
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from E:\android_project\AssemblyLineScanCode\AssemblyLineDemo\app\src\main\AndroidManifest.xml:34:13-38:29
+action#android.intent.action.MAIN
+ADDED from E:\android_project\AssemblyLineScanCode\AssemblyLineDemo\app\src\main\AndroidManifest.xml:36:17-69
+	android:name
+		ADDED from E:\android_project\AssemblyLineScanCode\AssemblyLineDemo\app\src\main\AndroidManifest.xml:36:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\android_project\AssemblyLineScanCode\AssemblyLineDemo\app\src\main\AndroidManifest.xml:37:17-77
+	android:name
+		ADDED from E:\android_project\AssemblyLineScanCode\AssemblyLineDemo\app\src\main\AndroidManifest.xml:37:27-74
+activity#com.ycexample.ycapp.E2promActivity
+ADDED from E:\android_project\AssemblyLineScanCode\AssemblyLineDemo\app\src\main\AndroidManifest.xml:41:9-60
+	android:name
+		ADDED from E:\android_project\AssemblyLineScanCode\AssemblyLineDemo\app\src\main\AndroidManifest.xml:41:19-48
+activity#com.ycexample.ycapp.IDActivity
+ADDED from E:\android_project\AssemblyLineScanCode\AssemblyLineDemo\app\src\main\AndroidManifest.xml:42:9-56
+	android:name
+		ADDED from E:\android_project\AssemblyLineScanCode\AssemblyLineDemo\app\src\main\AndroidManifest.xml:42:19-44
+activity#com.ycexample.ycapp.SerialActivity
+ADDED from E:\android_project\AssemblyLineScanCode\AssemblyLineDemo\app\src\main\AndroidManifest.xml:43:9-60
+	android:name
+		ADDED from E:\android_project\AssemblyLineScanCode\AssemblyLineDemo\app\src\main\AndroidManifest.xml:43:19-48
+activity#com.ycexample.ycapp.LogoProgActivity
+ADDED from E:\android_project\AssemblyLineScanCode\AssemblyLineDemo\app\src\main\AndroidManifest.xml:44:9-62
+	android:name
+		ADDED from E:\android_project\AssemblyLineScanCode\AssemblyLineDemo\app\src\main\AndroidManifest.xml:44:19-50
+receiver#com.ycexample.ycapp.listener.BootBroadcastReceiver
+ADDED from E:\android_project\AssemblyLineScanCode\AssemblyLineDemo\app\src\main\AndroidManifest.xml:53:9-60:20
+	android:name
+		ADDED from E:\android_project\AssemblyLineScanCode\AssemblyLineDemo\app\src\main\AndroidManifest.xml:53:19-65
+intent-filter#android.intent.action.BOOT_COMPLETED+android.intent.category.DEFAULT+android.intent.category.LAUNCHER
+ADDED from E:\android_project\AssemblyLineScanCode\AssemblyLineDemo\app\src\main\AndroidManifest.xml:54:13-59:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from E:\android_project\AssemblyLineScanCode\AssemblyLineDemo\app\src\main\AndroidManifest.xml:55:17-56:26
+	android:name
+		ADDED from E:\android_project\AssemblyLineScanCode\AssemblyLineDemo\app\src\main\AndroidManifest.xml:55:25-76
+category#android.intent.category.DEFAULT
+ADDED from E:\android_project\AssemblyLineScanCode\AssemblyLineDemo\app\src\main\AndroidManifest.xml:57:17-76
+	android:name
+		ADDED from E:\android_project\AssemblyLineScanCode\AssemblyLineDemo\app\src\main\AndroidManifest.xml:57:27-73
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:26.0.2] C:\Users\16486\.android\build-cache\90fb0b6fec9e85de4da6c87d102362b1f2174a44\output\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.0.2] C:\Users\16486\.android\build-cache\39722c3995ff86b8b1cfeeb512e670fe20c64e26\output\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.0.2] C:\Users\16486\.android\build-cache\969cc9661434354ee41619d7fe5e935e2ec11aee\output\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.0.2] C:\Users\16486\.android\build-cache\78c376acb8f8ad17e22de1e173696df25526dee6\output\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.0.2] C:\Users\16486\.android\build-cache\4d6090e466b6a086116a5af65ef7d9a205247e83\output\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.0.2] C:\Users\16486\.android\build-cache\5a77e806dc087b55d8edcff4a88f10625bab9f77\output\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.0.2] C:\Users\16486\.android\build-cache\bf2da7140e4efb2f33fee2372c2cd5d041e9f1ee\output\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.0.2] C:\Users\16486\.android\build-cache\2c460e84023c98c026af81a2033e43ac5274aed8\output\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-core-ui:26.0.2] C:\Users\16486\.android\build-cache\23cf2f06dff929f39e599151caf60271cf71f1c4\output\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.0.2] C:\Users\16486\.android\build-cache\b90e7e4b509fddef65cfe75e98f263cdf8fe79ae\output\AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:appcompat-v7:26.0.2] C:\Users\16486\.android\build-cache\90fb0b6fec9e85de4da6c87d102362b1f2174a44\output\AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:appcompat-v7:26.0.2] C:\Users\16486\.android\build-cache\90fb0b6fec9e85de4da6c87d102362b1f2174a44\output\AndroidManifest.xml:27:13-51

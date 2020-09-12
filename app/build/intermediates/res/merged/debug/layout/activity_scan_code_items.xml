@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:id="@+id/tv_title_scan_code_id"
+        android:text="id"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/scan_code_title_size"
+        />
+
+    <TextView
+        android:id="@+id/tv_title_scan_code"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="@color/text_color"
+        android:text="条码"
+        android:textSize="@dimen/scan_code_title_size"
+        />
+</LinearLayout>
