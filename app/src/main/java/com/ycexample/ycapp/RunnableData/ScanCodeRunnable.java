@@ -94,7 +94,7 @@ public class ScanCodeRunnable extends Thread {
     /**
      * 调用该方法实现恢复线程的运行
      */
-    public void resumeThread() {
+    public void  resumeThread() {
 
 
         this.pause = false;

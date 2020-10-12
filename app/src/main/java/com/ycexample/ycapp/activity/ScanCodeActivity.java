@@ -7,10 +7,8 @@ import android.os.Handler;
 import android.os.Message;
 import android.support.annotation.Nullable;
 import android.support.v4.content.ContextCompat;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
@@ -20,7 +18,6 @@ import com.ycexample.ycapp.RunnableData.ScanCodeRunnable;
 import com.ycexample.ycapp.adapter.ScanCodeAdapter;
 import com.ycexample.ycapp.entry.ScanCode;
 import com.ycexample.ycapp.tools.AlertDialogCallBack;
-import com.ycexample.ycapp.tools.AlertDialogNegativeCallBack;
 import com.ycexample.ycapp.tools.DialogUtils;
 import com.ychmi.sdk.YcApi;
 
@@ -88,7 +85,7 @@ public class ScanCodeActivity extends Activity {
         initUI();
 
         if (fp != null) {
-
+            currentSuccessStr="";
             ivSerialPortStatus.setBackgroundColor(ContextCompat.getColor(this,R.color.success));
             runnable = new ScanCodeRunnable(fp, handler);
             runnable.start();
@@ -141,7 +138,6 @@ public class ScanCodeActivity extends Activity {
         public void handleMessage(Message msg) {
             super.handleMessage(msg);
             Bundle bundle = msg.getData();
-        //    boolean isStartData = bundle.getBoolean("isStartData");
             String scanCode = bundle.getString("scanCode");
 
             boolean isEsit = true;
@@ -210,6 +206,7 @@ public class ScanCodeActivity extends Activity {
     }
 
     Handler gpioStatushandler = new Handler();
+    //开灯和灭灯
     Runnable gpioStatusRandler  = new Runnable() {
         @Override
         public void run() {
